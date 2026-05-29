@@ -1,2 +1,2 @@
 # Proyecto-Web-Ejemplo
-repositorio ejemplo
+repositorio de ejemplo
