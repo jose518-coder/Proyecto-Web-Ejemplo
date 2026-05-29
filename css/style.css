@@ -1,4 +1,4 @@
-/* --- Variables de Diseño --- */
+
 :root {
     --primary-color: #60db34;
     --primary-dark: #2c3e50;
@@ -11,9 +11,9 @@
     --transition-smooth: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-/* --- Reset y Estilos Generales --- */
+
 * {
-    margin: 0;
+    margin: 99px; 
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
@@ -29,10 +29,10 @@ body {
     line-height: 1.6;
 }
 
-/* --- Barra de Navegación (Moderna y Semitransparente) --- */
+
 header {
     background-color: rgba(255, 255, 255, 0.85);
-    backdrop-filter: blur(10px); /* Efecto cristal esmerilado */
+    backdrop-filter: blur(10px); 
     -webkit-backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
@@ -65,7 +65,7 @@ nav a:hover {
     color: var(--primary-color);
 }
 
-/* --- Sección Hero (Visualmente más atractiva) --- */
+
 .hero {
     background: radial-gradient(circle at top right, #3b82f6, #1d4ed8);
     color: white;
@@ -95,7 +95,7 @@ nav a:hover {
     margin-right: auto;
 }
 
-/* Botón estilizado */
+
 .btn {
     display: inline-block;
     background-color: var(--accent-color);
@@ -114,7 +114,7 @@ nav a:hover {
     box-shadow: 0 6px 20px rgba(231, 76, 60, 0.6);
 }
 
-/* --- Contenedor Principal --- */
+
 .container {
     max-width: 1140px;
     margin: 80px auto;
@@ -129,14 +129,13 @@ nav a:hover {
     color: var(--primary-dark);
 }
 
-/* --- Grid de Tarjetas (Mejorado con CSS Grid) --- */
 .cards-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 30px;
 }
 
-/* Tarjetas con sombras suaves y hover premium */
+
 .card {
     background: var(--card-bg);
     padding: 40px 30px;
@@ -164,7 +163,7 @@ nav a:hover {
     font-size: 15px;
 }
 
-/* --- Pie de Página --- */
+
 footer {
     background-color: var(--primary-dark);
     color: rgba(255, 255, 255, 0.7);
@@ -174,7 +173,7 @@ footer {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/* --- Animaciones --- */
+
 @keyframes fadeInDown {
     from {
         opacity: 0;
@@ -186,7 +185,7 @@ footer {
     }
 }
 
-/* --- Responsive Design --- */
+
 @media (max-width: 768px) {
     header {
         flex-direction: column;
