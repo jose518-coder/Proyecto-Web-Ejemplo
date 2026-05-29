@@ -13,7 +13,7 @@
 
 /* --- Reset y Estilos Generales --- */
 * {
-    margin: 0;
+    margin: 10px;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
